@@ -76,22 +76,5 @@
     <script src="../assets/js/material-kit.min.js?v=3.0.4" type="text/javascript"></script>
 </body>
 
-  <script>
-    fetch('header.html')
-      .then(response => response.text())
-      .then(html => document.getElementById('head').innerHTML = html)
-      .catch(error => console.error('error al cargar el contenido'), error);
-  </script>
-  <script>
-      fetch('navbar.html')
-        .then(response => response.text())
-        .then(html => document.getElementById('navbar').innerHTML = html)
-        .catch(error => console.error('error al cargar el contenido'), error);
-  </script>
-  <script>
-    fetch('footer.html')
-      .then(response => response.text())
-      .then(html => document.getElementById('footer').innerHTML = html)
-      .catch(error => console.error('error al cargar el contenido'), error);
-  </script>
+  <script src="../assets/js/scripts_nivel2.js"></script>
 </html>
