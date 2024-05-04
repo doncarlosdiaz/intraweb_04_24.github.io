@@ -1,9 +1,3 @@
-fetch('header.html')
-      .then(response => response.text())
-      .then(html => {
-          document.getElementById('head').innerHTML = html;
-      });
-
 fetch('navbar.html')
       .then(response => response.text())
       .then(html => {
