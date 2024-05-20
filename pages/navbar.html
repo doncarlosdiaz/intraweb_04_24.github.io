@@ -16,27 +16,42 @@
           </button>
           <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0 ms-lg-12 ps-lg-5" id="navigation">
             <ul class="navbar-nav navbar-nav-hover ms-auto">
-                <!-- Nuestros Servicios -->
+                <!-- Home -->
                <li class="nav-item ms-lg-auto">
-                <a class="nav-link nav-link-icon me-2" href="../index.html">
+                <a class="nav-link nav-link-icon me-2" href="https://doncarlosdiaz.github.io/intraweb_04_24.github.io/index.html">
                   <i class="fa fa-globe"></i>
                   <p class="d-inline text-sm z-index-1 font-weight-bold" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Inicio">Home</p>
                 </a>
               </li>
-               <!-- Nuestros Servicios -->
-               <li class="nav-item ms-lg-auto">
-                <a class="nav-link nav-link-icon me-2" href="https://doncarlosdiaz.github.io/pages/services.html">
-                    <i class="fas fa-user-cog"></i>
+               <!-- Nuestros Servicios -->              
+               <li class="nav-item dropdown ms-lg-auto dropdown-hover">
+                <a class="nav-link ps-2 cursor-pointer nav-link-icon me-2" id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false" href="#services">
+                  <i class="fas fa-user-cog"></i>
+
                   <p class="d-inline text-sm z-index-1 font-weight-bold" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Nuestros Servicios!">Servicios</p>
+                  <img src="../../assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto ms-md-2">
                 </a>
-              </li>
-              <!-- Sobre Nosotros -->
-              <li class="nav-item ms-lg-auto">
-                <a class="nav-link nav-link-icon me-2" href="../pages/about-us.html">
-                  <i class="fa fa-building"></i>
-                  <p class="d-inline text-sm z-index-1 font-weight-bold" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Conocenos!">Nosotros</p>
-                </a>
-              </li>
+                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-animation dropdown-md dropdown-md-responsive p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuBlocks">
+                  <div class="d-none d-lg-block">
+                    <li class="nav-item dropdown dropdown-hover dropdown-subitem">
+                      <a class="dropdown-item py-2 ps-3 border-radius-md" href="../../presentation.html">
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Cotización Formal</h6>
+                      </a>
+                      <a class="dropdown-item py-2 ps-3 border-radius-md" href="../../presentation.html">
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Clinica</h6>
+                      </a>
+                      <a class="dropdown-item py-2 ps-3 border-radius-md" href="../../presentation.html">
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Condominio</h6>
+                      </a>
+                      <a class="dropdown-item py-2 ps-3 border-radius-md" href="../../presentation.html">
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Peluqueria</h6>
+                      </a>
+                      <a class="dropdown-item py-2 ps-3 border-radius-md" href="../../presentation.html">
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Inventario</h6>
+                      </a>
+                    </li>
+                </ul>
+              </li> 
               <!-- Contacto -->
               <li class="nav-item ms-lg-auto">
                 <a class="nav-link nav-link-icon me-2" href="../pages/contact-us.html">
