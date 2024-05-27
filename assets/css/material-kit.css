@@ -4761,7 +4761,10 @@ fieldset:disabled .btn {
   --bs-navbar-toggler-border-radius: 0.5rem;
   --bs-navbar-toggler-focus-width: 0.2rem;
   --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
-  position: relative;
+  position: sticky;
+  animation: adjust-toolbar linear both;
+  animation-timeline: scroll();
+  animation-range: 0 200px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -8576,6 +8579,15 @@ fieldset:disabled .btn {
 
 .position-sticky {
   position: sticky !important;
+}
+
+@keyframes adjust-toolbar {
+  to {
+      background: rgba(0, 0, 0, .3);
+      backdrop-filter: blur(5px);
+      /* font-size: 16px;
+      height: 24px; */
+  }
 }
 
 .top-0 {
@@ -26214,7 +26226,7 @@ p {
 }
 
 .font-weight-bolder {
-  font-weight: 700 !important;
+  font-weight: 600 !important;
 }
 
 .font-italic {
