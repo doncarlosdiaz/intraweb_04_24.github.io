@@ -33,7 +33,7 @@
   <script defer data-site="YOUR_DOMAIN_HERE" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
 </head>
 
-<body class="index-page bg-gray-200">  
+<body>  
   
 <!-- Navbar -->
 <div id="navbar"></div>
@@ -43,13 +43,12 @@
 <header id="header"></header>
 <!-- End Header -->
 
-<div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
-  <a href="#head" id="floating-button">Ir al inicio</a>
+<div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6 mb-4">
 <!-- Section Contadores -->
-<section class="pt-3 pb-4" id="count-stats">
+<section class="" id="count-stats">
   <div class="container">
     <div class="row">
-      <div class="col-lg-9 mx-auto py-3">
+      <div class="col-lg-9 mx-auto">
         <div class="row">
           <div class="col-md-4 position-relative">
             <div class="p-3 text-center">
@@ -96,8 +95,8 @@
       </div>
     </div>
     <div class="row mb-5">
-      <div class="col-lg-4 col-md-6">
-        <div class="card card-background align-items-start h-100">
+      <div class="col-lg-4 col-md-6 d-flex flex-column">
+        <div class="card card-background mt-4  align-items-start h-100">
           <div class="full-background" style="background-image: url('./assets/img/cotizacionformal.jpeg')"></div>
           <div class="card-body text-center z-index-3">
             <p class="text-uppercase font-weight-bold opacity-8 text-xs mt-7"></p>
@@ -111,13 +110,15 @@
         </div>
       </div>
       <div class="col-lg-4 col-md-6 d-flex flex-column">
-        <div class="card h-100 card-background align-items-start">
+        <div class="card h-100 card-background mt-4 align-items-start">
           <div class="full-background" style="background-image: url('./assets/img/SellPos.jpg')"></div>
           <div class="card-body z-index-3">
             <i class="material-icons text-white text-3xl">point_of_sale</i>
           </div>
           <div class="card-footer pb-3 pt-2 z-index-3">
-            <h4 class="text-white mb-1 cursor-pointer">Sistema de Ventas</h4>
+            <a href="./pages/services/sales_system.html">
+              <h4 class="text-white mb-1 cursor-pointer">Sistema de Ventas</h4>
+            </a>
             <p class="text-white text-xs font-weight-bolder text-uppercase opacity-7">257 spots</p>
           </div>
           <span class="mask bg-gradient-dark border-radius-xl z-index-2 opacity-0"></span>
@@ -128,20 +129,24 @@
             <i class="material-icons text-white text-3xl">content_cut</i>
           </div>
           <div class="card-footer pb-3 pt-2 z-index-3">
-            <h4 class="text-white mb-1 cursor-pointer">Centro Belleza</h4>
+            <a href="./pages/services/hair_salon.html">
+              <h4 class="text-white mb-1 cursor-pointer">Centro Belleza</h4>
+            </a>
             <p class="text-white text-xs font-weight-bolder text-uppercase opacity-7">117 spots</p>
           </div>
           <span class="mask bg-gradient-dark border-radius-xl z-index-2 opacity-0"></span>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 d-flex flex-column">
-        <div class="card h-100 card-background align-items-start">
+        <div class="card h-100 card-background mt-4 align-items-start">
           <div class="full-background" style="background-image: url('./assets/img/Sistemamedico.jpg')"></div>
           <div class="card-body z-index-3">
             <i class="material-icons text-white text-3xl">volunteer_activism</i>
           </div>
           <div class="card-footer pb-3 pt-2 z-index-3">
-            <h4 class="text-white mb-1 cursor-pointer">Clinica</h4>
+            <a href="./pages/services/clinic.html">
+              <h4 class="text-white mb-1 cursor-pointer">Clinica</h4>
+            </a>  
             <p class="text-white text-xs font-weight-bolder text-uppercase opacity-7">363 spots</p>
           </div>
           <span class="mask bg-gradient-dark border-radius-xl z-index-2 opacity-0"></span>
@@ -152,7 +157,9 @@
             <i class="material-icons text-white text-3xl">pending_actions</i>
           </div>
           <div class="card-footer pb-3 pt-2 z-index-3">
-            <h4 class="text-white mb-1 cursor-pointer">Condominio</h4>
+            <a href="./pages/services/condominium.html">
+              <h4 class="text-white mb-1 cursor-pointer">Condominio</h4>
+            </a>
             <p class="text-white text-xs font-weight-bolder text-uppercase opacity-7">215 spots</p>
           </div>
           <span class="mask bg-gradient-dark border-radius-xl z-index-2 opacity-0"></span>
@@ -286,7 +293,7 @@
       <div class="col-lg-4 col-md-6 ms-lg-auto mb-sm-0 mb-5">
         <div class="card text-center">
           <div class="card-header bg-transparent">
-            <h5 class="mt-4 mb-2">Freemiun</h5>
+            <h5 class="mt-4 mb-2">Free</h5>
             <h2>
               $0 <small class="text-sm text-secondary font-weight-bold">/ mes</small>
             </h2>
@@ -318,7 +325,7 @@
           <div class="card-header bg-transparent">
             <h5 class="mt-4 mb-2 text-white">Premium</h5>
             <h2 class="text-white">
-              $49 <small class="text-sm">/ mes</small>
+              $99 <small class="text-sm">/ mes</small>
             </h2>
           </div>
           <div class="card-body">
