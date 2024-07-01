@@ -24,7 +24,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
   
     <!-- CSS Files -->
-    <link id="pagestyle" href="https://doncarlosdiaz.github.io/intraweb_04_24.github.io/assets/css/material-kit.css?v=3.0.4" rel="stylesheet" />
+    <link id="pagestyle" href="../assets/css/material-kit.css?v=3.0.4" rel="stylesheet" />
   
     <!-- Nepcha Analytics (nepcha.com) -->
     <!-- Nepcha is a easy-to-use web analytics. No cookies and fully compliant with GDPR, CCPA and PECR. -->
@@ -39,23 +39,36 @@
                 <a class="text-white font-weight-bolder" rel="tooltip" title="Diseñado y Codificado por IntraWeb" data-placement="bottom">
                   COTIZACIÓN FORMAL
                 </a>
+                <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0">
+                  <ul class="navbar-nav navbar-nav-hover ms-auto">  
+                    <li class="nav-item my-auto ms-3 ms-lg-0">          
+                      <a href="" class="btn btn-sm  bg-gradient-primary  mb-0 me-1 mt-2 mt-md-0">Guardar</a>                
+                    </li>
+                    <li class="nav-item my-auto ms-3 ms-lg-0">          
+                      <a href="" class="btn btn-sm  bg-gradient-info  mb-0 me-1 mt-2 mt-md-0">Imprimir</a>                
+                    </li>
+                    <li class="nav-item my-auto ms-3 ms-lg-0">          
+                      <a href="" class="btn btn-sm  bg-gradient-warning  mb-0 me-1 mt-2 mt-md-0">Volver</a>                
+                    </li>
+                  </ul>
+                </div>
               </div>
             </nav>
           </div>
         </div>
     </div>
     <div class="container py-7">
-        <div class="row mt-5">
+        <div class="row">
           <div class="col-sm-12 col-6 mx-auto">      
 
             <div class="" id="exampleModalForm" tabindex="-1" aria-labelledby="exampleModalForm" aria-hidden="true">
               <div class="modal-dialog modal-danger modal-dialog-centered modal-" role="document">
                 <div class="modal-content">
                   <div class="modal-body p-0">
-                    <div class="card bg-gray-100 shadow border-0 mb-0">
+                    <div class="card bg-gray-100 shadow border-0 mb-3">
                       <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-                        <div class="bg-gradient-info shadow-info border-radius-lg py-3 pe-1 py-1">
-                          <h6 class="text-white mt-1 mb-0"> . Datos Receptor</h6>
+                        <div class="bg-gradient-primary shadow-info border-radius-lg py-3 pe-1 py-1">
+                          <h6 class="text-white mt-0 mb-0 px-2">  Datos Receptor</h6>
                         </div>
                       </div>
                       <div class="card-body">
@@ -109,10 +122,10 @@
                     </div>
                     <hr/>
                     <div class="modal-body p-0">
-                        <div class="card bg-gray-100 shadow border-0 mb-0">
+                        <div class="card bg-gray-100 shadow border-0 mb-3">
                           <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-                            <div class="bg-gradient-info shadow-info border-radius-lg py-3 pe-1 py-1">
-                              <h6 class="text-white mt-1 mb-0"> . Detalle del Documento</h6>
+                            <div class="bg-gradient-primary shadow-info border-radius-lg py-3 pe-1 py-1">
+                              <h6 class="text-white mt-0 mb-0 px-2">  Detalle del Documento</h6>
                             </div>
                           </div>
                           <div class="card-body">
@@ -145,7 +158,7 @@
                                                       </div>
                                                     </td>
                                                     <td>
-                                                      <p class="text-xs font-weight-bold mb-0">Pendon Roller</p>
+                                                      <p class="text-xs font-weight-bold mb-0">Servicio Web</p>
                                                     </td>
                                                     <td>
                                                       <span class="badge badge-dot me-4">
@@ -194,62 +207,53 @@
         </div>
       </div>
         <form>
-              <section>
-                <div class="container">
-                    <div class="row">
-                        <div class="col">       
-                            <div class="input-group input-group-outline">
-                                <textarea class="form-control" rows="5" placeholder="Observaciones" spellcheck="false"></textarea>
-                              </div>                            
-                        </div>                        
-                        <div class="col">                          
-                        </div>                              
-                        <div class="col">                            
-                            <h6>TOTALES</h6>
-                            <div class="input-group input-group-outline my-3">
-                              <label class="form-label">Descto</label>
-                              <input class="form-control" type="text" >
-                            </div>                                
-                        </div>   
+          <section class="py-2 bg-gray-100 shadow border-0 mb-3">
+            <div class="container postion-relative z-index-2">
+              <div class="row">
+                <div class="col-lg-8 col-md-6 ms-lg-auto mb-sm-0 mb-5">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="input-group input-group-outline">
+                        <label class="form-label">Observaciones:</label>
+                        <textarea class="form-control" rows="5" placeholder="Observaciones" spellcheck="false">
+                          Servicio web plan Mensual
+                        </textarea>
+                      </div>                      
                     </div>
-                    <div class="row">
-                        <div class="col">                            
-                        </div>                        
-                        <div class="col">                         
-                        </div>                              
-                        <div class="col">
-                            <div class="input-group input-group-outline my-3">
-                              <label class="form-label">Monto Neto</label>
-                              <input class="form-control" type="text" >
-                            </div>                               
-                        </div>   
-                    </div>   
-                    <div class="row">
-                        <div class="col">                            
-                        </div>                        
-                        <div class="col">                         
-                        </div>                              
-                        <div class="col">
-                            <div class="input-group input-group-outline my-3">
-                              <label class="form-label">IVA</label>
-                              <input class="form-control" type="text" >
-                            </div>                               
-                        </div>   
-                    </div> 
-                    <div class="row">
-                        <div class="col">                      
-                        </div>                        
-                        <div class="col">                         
-                        </div>                              
-                        <div class="col">
-                            <div class="input-group input-group-outline my-3">
-                              <label class="form-label">Monto Total</label>
-                              <input class="form-control" type="text" >
-                            </div>                               
-                        </div>   
-                    </div>                  
+                  </div>
                 </div>
-              </section>
+                <div class="col-lg-4 col-md-6 me-lg-auto">
+                  <div class="card bg-gray-100">
+                    <div class="card-header bg-transparent">
+                      <h6 class="text-primary">TOTALES</h6>
+                    </div>
+                    <div class="card-body">
+                      <div class="input-group input-group-outline">
+                        <label class="form-label">Descto</label>
+                        <input class="form-control" type="text" >
+                      </div>  
+                      <div class="col">
+                        <div class="input-group input-group-outline my-3">
+                          <label class="form-label">Monto Neto</label>
+                          <input class="form-control" type="text" >
+                        </div>   
+                        <div class="col">
+                          <div class="input-group input-group-outline my-3">
+                            <label class="form-label">IVA</label>
+                            <input class="form-control" type="text" >
+                          </div> 
+                          <div class="input-group input-group-outline my-3">
+                            <label class="form-label">Monto Total</label>
+                            <input class="form-control" type="text" >
+                          </div>                                 
+                      </div>                             
+                    </div>   
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </form>
   </body>
     <!--   Core JS Files   -->

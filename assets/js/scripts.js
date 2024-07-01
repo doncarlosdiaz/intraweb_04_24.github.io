@@ -4,7 +4,7 @@ fetch('pages/navbar.html')
           document.getElementById('navbar').innerHTML = html;
       });
 
-      fetch('pages/header.html')
+fetch('pages/header.html')
       .then(response => response.text())
       .then(html => {
           document.getElementById('header').innerHTML = html;
@@ -51,3 +51,6 @@ fetch('pages/footer.html')
           loop: true
         });
       }
+
+
+    
